@@ -1,7 +1,7 @@
 // const Hydra = require('hydra-synth')
 
-var myElement = document.createElement('img'); // <img />
-myElement.src = 'PabloPIMP.jpeg';    // <img src=" " />
+// var myElement = document.createElement('img'); // <img />
+// myElement.src = 'PabloPIMP.jpeg';    // <img src=" " />
 
 
 window.onload = function () {
@@ -34,13 +34,14 @@ window.onload = function () {
 
   // let t = document.createElement('div')
   // t.id = "header-text"
-  // t.innerText = "Peace out!"
+  // t.innerText = "53!"
   // t.style.color = "white"
-  // t.style.fontFamily = "Helvetica"
+  // // t.style.fontFamily = "Helvetica"
   // t.style.fontSize = "46px"
 
   // document.body.appendChild(t)
 
+  c = document.getElementsByTagName('canvas')[0]
 
 
 }
