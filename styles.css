@@ -10,27 +10,48 @@ body {
   height: 100vh;
 }
 
-#myVideo {
+#text {
   position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    transform: translateX(calc((100% - 100vw) / 2));
-    z-index: -1;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: 1;
+  font-size: 70px;
+}
+
+#text2 {
+  position: fixed;
+  right: 0;
+  bottom: 20vw;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: 1;
+  font-size: 50px;
+}
+
+#text3 {
+  position: fixed;
+  right: 0;
+  bottom: -20vw;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: 1;
+  font-size: 50px;
 }
 
 .container {
   /* position: relative; */
-  padding-left: 85px;
+  padding-left: 50vw;
+  position: absolute;
 }
 
 .content {
   background: rgba(0, 0, 0, 0.0);
   z-index: 1;
-
-  
-
 }
 
 .box.flex {
@@ -39,12 +60,14 @@ body {
   align-items: center;
   padding-top: 15vh;
   align-content: space-between;
+  position: absolute;
 }
 
 .box {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
 }
 
 a:link {
@@ -53,11 +76,7 @@ a:link {
 
 
 #click {
-
   font-size: 70px;
-  text-align: center;
-  position: absolute;
-
 }
 
 canvas {
